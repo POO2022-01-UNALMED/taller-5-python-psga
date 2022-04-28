@@ -10,7 +10,7 @@ class Zoologico:
     def cantidadTotalAnimales(self):
         t = 0
         for zona in self.getZona():
-            total += zona.cantidadAnimales()
+            t += zona.cantidadAnimales()
         return t
 
     def getNombre(self):
